@@ -12,3 +12,16 @@ body{
     background: radial-gradient(gray,black);
     min-height: 100vh;
 }
+
+.container {
+    border: 3px solid #333;
+    border-radius: 4px;
+    width: 450px;
+    height: 550px;
+}
+
+.card__image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
