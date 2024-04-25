@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: radial-gradient(gray,black);
+    background: radial-gradient(gray, black);
     min-height: 100vh;
 }
 
@@ -22,10 +22,17 @@ body{
 
 .container__card {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card__image_container {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.image_container__image {
+    width: 25em;
+    margin-left: auto;
+    margin-right: auto;
 }
