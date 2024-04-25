@@ -20,6 +20,10 @@ body{
     height: 550px;
 }
 
+.container__card {
+    display: flex;
+}
+
 .card__image_container {
     display: flex;
     justify-content: center;
